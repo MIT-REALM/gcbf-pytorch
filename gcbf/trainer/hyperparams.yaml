@@ -1,0 +1,51 @@
+SimpleCar:
+  gcbf:
+    alpha: 1.0
+    eps: 0.02
+    inner_iter: 10
+    loss_action_coef: 0.05
+    loss_unsafe_coef: 1.0
+    loss_safe_coef: 1.0
+    loss_h_dot_coef: 0.5
+  macbf:
+    alpha: 1.0
+    eps: 0.02
+    inner_iter: 10
+    loss_action_coef: 0.0001
+    loss_unsafe_coef: 1.0
+    loss_safe_coef: 1.0
+    loss_h_dot_coef: 1.0
+SimpleDrone:
+  gcbf:
+    alpha: 1.0
+    eps: 0.02
+    inner_iter: 10
+    loss_action_coef: 0.05
+    loss_unsafe_coef: 1.0
+    loss_safe_coef: 1.0
+    loss_h_dot_coef: 0.5
+  macbf:
+    alpha: 1.0
+    eps: 0.02
+    inner_iter: 10
+    loss_action_coef: 0.01
+    loss_unsafe_coef: 1.0
+    loss_safe_coef: 1.0
+    loss_h_dot_coef: 1.0
+DubinsCar:
+  gcbf:
+    alpha: 1.0
+    eps: 0.02
+    inner_iter: 10
+    loss_action_coef: 0.0001
+    loss_unsafe_coef: 1.0
+    loss_safe_coef: 1.0
+    loss_h_dot_coef: 0.2
+  macbf:
+    alpha: 1.0
+    eps: 0.02
+    inner_iter: 10
+    loss_action_coef: 0.0005
+    loss_unsafe_coef: 1.0
+    loss_safe_coef: 1.0
+    loss_h_dot_coef: 1.0
