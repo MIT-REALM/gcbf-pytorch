@@ -4,6 +4,8 @@
 
 PyTorch Official Implementation of CoRL 2023 Paper: [S Zhang](https://syzhang092218-source.github.io), [K Garg](https://kunalgarg.mit.edu/), [C Fan](https://chuchu.mit.edu): "[Neural Graph Control Barrier Functions Guided Distributed Collision-avoidance Multi-agent Control](https://mit-realm.github.io/gcbf-website/)"
 
+A faster [JAX](https://github.com/google/jax) version is coming! 
+
 ## Dependencies
 
 We recommend to use [CONDA](https://www.anaconda.com/) to install the requirements:
