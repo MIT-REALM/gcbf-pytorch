@@ -7,3 +7,5 @@ wandb/
 records
 test.sh
 test_log.csv
+videos/
+*.egg-info/

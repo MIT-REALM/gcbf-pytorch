@@ -76,7 +76,7 @@ def plot_graph(
             plot_node(i, color, with_label)
     if plot_edge:
         graph = to_networkx(data)
-        nx.draw_networkx_edges(graph, pos, width=5.0, alpha=0.5, node_size=500, arrowsize=30)
+        nx.draw_networkx_edges(graph, pos, width=1.0, alpha=0.5, node_size=500, arrowsize=10)
     return ax
 
 

@@ -282,7 +282,7 @@ class GCBF(Algorithm):
 
         # consider the satisfaction of h_dot condition
         i_iter = 0
-        max_iter = 200
+        max_iter = 30
         while True:
 
             action = torch.cat(actions, dim=0)

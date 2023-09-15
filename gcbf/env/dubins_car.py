@@ -96,7 +96,7 @@ class DubinsCar(SimpleCar):
             'obs_len_max': 0.5,
             'speed_limit': 0.8,
             'obs_speed_limit': 0.2,
-            'num_obs': 32,
+            'num_obs': 0,
         }
 
     @property
@@ -692,6 +692,11 @@ class DubinsCar(SimpleCar):
                 # plot the cars and the communication network
                 plot_graph(ax, data, radius=r, color='#FF8C00', with_label=False,
                            plot_edge=plot_edge, alpha=0.8)
+
+                # plot the goals
+                goal_data = Data(pos=self._goal[:, :2])
+                plot_graph(ax, goal_data, radius=r, color='#3CB371',
+                           with_label=True, plot_edge=False, alpha=0.8)
 
                 # set axis limit
                 x_interval = self._xy_max[0] - self._xy_min[0]
