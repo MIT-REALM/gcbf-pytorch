@@ -4,7 +4,9 @@
 
 PyTorch Official Implementation of CoRL 2023 Paper: [S Zhang](https://syzhang092218-source.github.io), [K Garg](https://kunalgarg.mit.edu/), [C Fan](https://chuchu.mit.edu): "[Neural Graph Control Barrier Functions Guided Distributed Collision-avoidance Multi-agent Control](https://mit-realm.github.io/gcbf-website/)"
 
-We have improved the GCBF to [GCBF+](https://mit-realm.github.io/gcbfplus-website/)!! Check out the new code [here](https://github.com/MIT-REALM/gcbfplus). 
+!!!!!!!!!!
+**We have improved GCBF to [GCBF+](https://mit-realm.github.io/gcbfplus-website/)!! Check out the new code [here](https://github.com/MIT-REALM/gcbfplus).**
+!!!!!!!!!!
 
 ## Dependencies
 
