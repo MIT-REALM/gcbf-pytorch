@@ -102,3 +102,7 @@ We provide the pre-trained models in the folder [`./pretrained`](pretrained).
       year={2023}
 }
 ```
+
+## Acknowledgement
+
+The developers were partially supported by MITRE during the project.
