@@ -86,7 +86,7 @@ This should report the safety rate, goal reaching rate, and success rate of the 
 There is also a nominal controller implemented for each environment for goal reaching. They can be tested using:
 
 ```bash
-python test.py --env <env> -n <number-of-agents> --nominal --epi <number-of-episodes>
+python test.py --env <env> -n <number-of-agents> --epi <number-of-episodes>
 ```
 
 ### Pre-trained models
